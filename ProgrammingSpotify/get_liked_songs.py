@@ -5,8 +5,8 @@ from spotipy.oauth2 import SpotifyOAuth
 
 import pandas as pd
 
-client_id="06469cd4845b4cc2b61a61463f0c4f2d"
-client_secret="6954c723f16d4d29915f0f535fb100b0"
+client_id=""
+client_secret=""
 scope = "user-library-read"
 # spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(
 #     client_id="06469cd4845b4cc2b61a61463f0c4f2d",
@@ -15,8 +15,8 @@ scope = "user-library-read"
 
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id="06469cd4845b4cc2b61a61463f0c4f2d",
-    client_secret="6954c723f16d4d29915f0f535fb100b0", 
+    client_id="",
+    client_secret="", 
     redirect_uri="http://127.0.0.1:9090", 
     username="Shrijith R",
     scope=scope))

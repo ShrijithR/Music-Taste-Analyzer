@@ -5,9 +5,9 @@
  _An application to analyze Spotify data the API to display the user's musical preference._  
  What does it do?    
 * _Gets data from Spotify API_  
-* _Extracts tracks, artists, and genres_  
-* _Updates an Excel sheet containing above data_  
-* _Finds out the predominantly listened to genre_  
+* _Extracts tracks and respective artists_  
+* _Creates an Excel sheet containing above data_  
 
 ### Future additions
-* _Finds out tracks, artists, and genres related to the user's taste_  
+* _Finds out user's favourite genre_  
+* _Suggests related genres for the user to explore_  
